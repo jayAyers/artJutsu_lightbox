@@ -1,0 +1,148 @@
+<html>
+ <head>
+  <title>[aJ] Lightbox</title>
+  <link rel="StyleSheet" href="Stylesheet.css" />
+  <link rel="StyleSheet" href="template.css" />
+  
+  <script src="jpi/jpi.js"></script>    
+  <script>jpi.startJPI('');</script>
+  <script src="template.js"></script>
+ </head>
+ <body>
+   <br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+      <div class='lightbox_tool_wrap'>
+    <div class='lightbox_tool_icon'>C</div>
+	<div id='canvas_palette' class='lightbox_tool_palette'>
+	
+	 <div id='canvas_info'>
+	  <div id='drawItPaletteColor'>5px</div>
+      <div id='penOpacityWrap'>
+       <div id='penOpacity_Left' class='penOpacity'><</div>
+       <div id='penOpacity_Right' class='penOpacity'>></div>
+      </div>
+	  <div id='drawItPaletteErase'>eraser<a href='#lightbox_canvas' data-tool='eraser'></a></div>
+      <a id='drawItPaletteMarker' href='#lightbox_canvas' data-tool='marker'></a>
+      <!--<div id='drawItPaletteClear'>clear</div>-->
+	  <div class='cleaner'></div>
+	 </div>
+	
+	 <div id='canvas_size'>
+	  <div class='drawItPaletteSize dip1'><a href='#lightbox_canvas' data-size='1'></a></div>
+      <div class='drawItPaletteSize dip2 selecteddrawItPaletteSize'><a href='#lightbox_canvas' data-size='2'></a></div>
+      <div class='drawItPaletteSize dip3'><a href='#lightbox_canvas' data-size='3'></a></div>
+	  <div class='drawItPaletteSize dip5'><a href='#lightbox_canvas' data-size='5'></a></div>
+	  <div class='drawItPaletteSize dip8'><a href='#lightbox_canvas' data-size='8'></a></div>
+	  <div class='drawItPaletteSize dip13'><a href='#lightbox_canvas' data-size='13'></a></div>
+	  <div class='drawItPaletteSize dip21'><a href='#lightbox_canvas' data-size='21'></a></div>
+	  <div class='drawItPaletteSize dip34'><a href='#lightbox_canvas' data-size='34'></a></div>
+	  <div class='cleaner'></div>
+	 </div>
+	 <div id='canvas_picker'>
+	  <div class='drawItPalettePicker' style='background-color: black;'><a href='#lightbox_canvas' data-color='black'></a></div>
+      <div class='drawItPalettePicker white' style='background-color: white;'><a href='#lightbox_canvas' data-color='white'></a></div>
+      <div class='drawItPalettePicker' style='background-color: gray;'><a href='#lightbox_canvas' data-color='gray'></a></div>
+      <div class='drawItPalettePicker' style='background-color: red;'><a href='#lightbox_canvas' data-color='red'></a></div>
+	  <div class='drawItPalettePicker' style='background-color: orange;'><a href='#lightbox_canvas' data-color='orange'></a></div>
+      <div class='drawItPalettePicker white' style='background-color: yellow;'><a href='#lightbox_canvas' data-color='yellow'></a></div>
+      <div class='drawItPalettePicker' style='background-color: green;'><a href='#lightbox_canvas' data-color='green'></a></div>
+      <div class='drawItPalettePicker' style='background-color: #218868;'><a href='#lightbox_canvas' data-color='#218868'></a></div>
+	  <div class='drawItPalettePicker' style='background-color: blue;'><a href='#lightbox_canvas' data-color='blue'></a></div>
+      <div class='drawItPalettePicker white' style='background-color: purple;'><a href='#lightbox_canvas' data-color='purple'></a></div>
+	  <div class='cleaner'></div>
+	 </div>
+	</div>
+   </div>
+   
+   Þend color
+
+
+   <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+   #hue
+   <div class='lightbox_tool_wrap'>
+    <img class='lightbox_tool_icon' src='image/icons/hue.jpg' />
+	<div id='hue_palette' class='lightbox_tool_palette'>
+     <div id='hue_left' class='hue_selector'><</div>
+     <div id='hue_info'>30%</div>
+     <div id='hue_right' class='hue_selector'>></div>
+
+     <div id='hue_color'>
+      <div id='hue_orange' class='hue_color_selector selected_hue_color_selector'></div>
+      <div id='hue_yellow' class='hue_color_selector'></div>
+      <div id='hue_green' class='hue_color_selector'></div>
+      <div id='hue_blue' class='hue_color_selector'></div>
+      <div class='cleaner'></div>
+     </div>
+     <div class='cleaner'></div>    
+    </div><!--end hue_palette-->
+   </div>
+   #end hue
+
+   <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+   #grid
+   <div class='lightbox_tool_wrap'>
+    <img id='grid_eye' src='image/icons/graph.gif' />
+    <!--
+    <div class='lightbox_tool_icon'>G</div>
+	<div id='grid_palette' class='lightbox_tool_palette'>
+     <div id='grid_eye'>show</div>
+     <div id='grid_count'>10 across</div>
+     <div id='grid_color'>color</div>
+    </div>
+    --> 
+   </div>
+   #end grid
+
+   <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+   #bgSight
+   <div class='lightbox_tool_wrap'>
+    <img id='bgSight' src='image/icons/eyeOPEN.png' />
+   </div>
+   #end bgSight
+
+   #saveCanvas
+   <a href='#lightbox_canvas' data-download='png'>Download</a>
+   #endSave
+
+   <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+   <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+   #tutorial
+   <div class='lightbox_tool_wrap'>
+    <img class='lightbox_tool_icon' src='image/icons/tutorial.jpeg' />
+	<div id='tutorial_palette' class='lightbox_tool_palette'>
+     <!--<img id='tutorial_eye' src='image/icons/eyeClose.png' />-->
+     <div class='tutorialList td1'>
+      <div class='panelSwap tutorialListItem 1'></div>
+      <div class='panelSwap tutorialListItem 2'></div>
+      <div class='panelSwap tutorialListItem 3'></div>
+     </div>
+     <div id='tutorialSoon'>tutorial feature coming soon</div>
+     <div class='tutorialDisplay td1'><!--
+      <div class='1'>
+       <div class='tutorialStep'>Step 1</div>
+       <div class='tutorialBlab'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+       <div class='panelSwapNext'>></div>
+      </div>
+      <div class='2'>
+       <div class='tutorialStep'>Step 2</div>
+       <div class='tutorialBlab'>Lorem ipsum dolor sit amet</div>
+       <div class='panelSwapNext'>></div>
+      </div>
+      <div class='3'>
+       <div class='tutorialStep'>Step 3</div>
+       <div class='tutorialBlab'>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+       <div class='panelSwapFirst'>></div>
+      </div>
+     --></div>
+    </div>
+   </div>
+   #end tutorial
+   <!--
+   <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+   <div class='lightbox_tool_wrap'>
+    <div class='lightbox_tool_icon'>H</div>
+	<div id='hue_palette' class='lightbox_tool_palette'>< 0.4 ></div>
+   </div>
+   -->
+ </body>
+</html>

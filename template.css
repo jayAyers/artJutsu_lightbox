@@ -1,0 +1,67 @@
+/********************
+  COLOR
+ ********************/
+
+#drawItPaletteColor{margin: 10px 20px 0 18px; padding-top: 15px; width: 55px; height: 40px; border: 2px solid #708090; 
+                    float: left; border-radius: 5px; background-color: black; color: white; font-size: 20px; 
+                    font-weight: bolder; text-align: center; opacity: .5;}
+#penOpacityWrap{margin: 75px 0 0 10px; width: 100px; position: absolute;}
+#penOpacity_Left, #penOpacity_Right{margin-right: 6px; width: 30px; height: 11px; border: 2px solid #708090; float: left;
+                                    text-align: center; color: #708090; background-color: White; cursor: pointer;
+                                    font-weight: bolder; font-size: 8px;}
+#drawItPaletteErase{margin-top: 18px; padding-top: 5px; width: 65px; height: 28px; border: 2px solid #DC143C; background-color: #FFE4C4; float: left;
+                    border-radius: 5px; text-align: center; text-decoration: none; color: #FF7256; box-shadow: 3px 3px 3px #A52A2A; cursor: pointer;}
+#drawItPaletteClear{margin: 26px 0 0 18px; width: 45px; border: 1px solid #708090; float: left; cursor: pointer; color: #708090;
+                    text-align: center;}
+.selectedEraser{box-shadow: 3px 3px 3px red;}					
+
+#canvas_size{margin: 0 0 15px 80px;}
+.drawItPaletteSize{margin-right: 10px; border: 2px solid #708090; background-color: white; border-radius: 30px; cursor: pointer;}
+.selecteddrawItPaletteSize{background-color: #708090;}
+.dip1{margin-top: 33px; width: 1px; height: 1px;}
+.dip2{margin-top: 32px; width: 2px; height: 2px;}
+.dip3{margin-top: 31px; width: 3px; height: 3px;}
+.dip5{margin-top: 29px; width: 5px; height: 5px;}
+.dip8{margin-top: 26px; width: 8px; height: 8px;}
+.dip13{margin-top: 21px; width: 13px; height: 13px;}
+.dip21{margin-top: 13px; width: 21px; height: 21px;}
+.dip34{width: 34px; height: 34px;}
+
+
+
+
+#canvas_palette{margin-top: -235px; width: 300px; height: 160px; background-color: #F8F8FF; border: 2px solid #708090; border-radius: 5px;}
+#canvas_picker{margin-left: 13px; width: 270px; border: 1px solid black; border-radius: 5px; cursor: pointer;}
+
+
+/********************
+  HUE
+ ********************/
+ #hue_palette{margin-top: -195px; padding: 20px 0 0 20px; width: 175px; height: 100px;}
+ .hue_selector{width: 35px; height: 35px; border: 2px solid #708090; float: left; border-radius: 5px; text-align: center;
+               box-shadow: 3px 3px 3px #ccc; background-color: White; font-size: 26px; font-weight: bolder; color: #708090; cursor: pointer;}
+ #hue_info{margin-top: 3px; width: 75px; font-size: 26px; font-weight: bolder; color: #708090; text-align: center; float: left;}
+ .hue_color_selector{margin-left: 5px; width: 25px; height: 25px; border: 2px solid black; cursor: pointer; float: left;}
+ 
+ #hue_color{margin: 55px 0 0 7px;}
+ .selected_hue_color_selector{border: 2px solid #FFD700;}
+ #hue_orange{background-color: Orange;}
+ #hue_yellow{background-color: Yellow;}
+ #hue_green{background-color: Green;}
+ #hue_blue{background-color: Blue;}
+ 
+ /********************
+   grid
+  ********************/
+ .gridBox{width: 69px; height: 50px; border-right: 1px solid #8B2323; border-bottom: 1px solid #8B2323; float: left;}
+ 
+ /********************
+   tutorial
+  ********************/
+  #tutorial_palette{margin: -230px 0 0 0px; width: 450px; height: 155px;}
+  .tutorialDisplay > img{opacity: 0.3;}
+  #tutorial_eye{margin: 5px 0 0 420px; width: 20px; height: 20px; border: 1px solid black; text-align: center;
+                font-size: 12px; cursor: pointer;}
+  .tutorialStep{margin: -20px 0 10px 20px; font-size: 18px; font-weight: bolder; color: #708090; font-family: Times New Roman;}
+  .tutorialBlab{width: 405px; margin-left: 20px; word-wrap: break; font-family: Times New Roman; float: left;} 
+  .panelSwapNext, .panelSwapFirst{font-size: 24px; font-weight: bolder; color: #708090; cursor: pointer; float: left;}             

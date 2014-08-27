@@ -1,0 +1,28 @@
+<html>
+ <head>
+  <style>
+   #simple_sketch{border: 1px solid black; cursor: crosshair;}
+   #save{border: 1px solid black; cursor:pointer;}
+  </style>
+  
+  <script src="jpi/jpi.js"></script>    
+  <script>jpi.startJPI('');</script>
+  <script src="sketch.js"></script> 
+ </head>
+ <body>
+ 
+ <canvas id="simple_sketch" width="800" height="800"></canvas>
+ <div id='save'>save</div>
+<script type="text/javascript">
+  $(function() {
+    $('#simple_sketch').sketch();
+  });
+  
+  $('#save').live('click', function(){
+     var canvas = document.getElementById("simple_sketch");
+        var img = canvas.toDataURL("image/png").substr(22);
+		alert(img);
+  });
+</script>
+ </body>
+</html>

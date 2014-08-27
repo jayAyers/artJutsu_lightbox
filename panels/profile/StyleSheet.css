@@ -1,0 +1,186 @@
+﻿body {
+}
+
+#profile_wrap{margin-top: 175px; min-height: 900px;}
+
+#profileTop{margin-bottom: 55px; height: 400px; background-color: #FCF6CF;
+            border-top-right-radius: 5px; border-top-left-radius: 5px; 
+            /*
+            background-image: url('http://whatcanilearntoday.files.wordpress.com/2012/01/the-hoff.jpg');
+            background-image: url('../../image/profile/the-hoff.jpg'); 
+            */
+            background-size: 915px 400px;
+            opacity: .75;
+            }
+#profileMenu{margin: -125px 0 0 50px; width: 900px; height: 100px; position: absolute; /*border: 1px solid red;*/}
+#profilePic{padding: 7px; width: 100px; height: 100px; position: absolute; background-color: White; border-radius: 100px;}
+#profileName{margin: 115px 0 0 -45px; width: 200px; font-size: 24px; 
+             font-weight: bolder; color: #708090; position: absolute; text-align: center;}
+#profile_logout{margin: 150px 0 0 16px; padding: 5px 0 5px 0; width: 75px; border: 2px solid #E3E3E3; position: absolute;
+                text-align: center; cursor: pointer; border-radius: 5px; color: #E3E3E3; font-weight: bolder;}
+#profile_logout:hover{ border: 2px solid #B5B5B5; color: #B5B5B5; background-color: #E3E3E3;}
+
+.profileMenuList{margin: 45px 0 0 600px;}   
+.profileMenuListItem{margin-right: 18px; padding: 6px; width: 35px; height: 35px; background-color: white;
+                     border-top-right-radius: 100px; border-top-left-radius: 100px; 
+                     border: 4px solid white; float: left; cursor: pointer; text-align: center;}         
+.selectedprofileMenuListItem{/*border: 4px solid orange;*/}
+#profileDisplay_1{margin-left: 600px; width: 200px; text-align: center;
+                  font-size: 24px; font-weight: bolder; color: #708090;}
+                  
+/********************
+   SOCIAL
+  ********************/     
+#aj_social_List{margin: 15px 0 0 55px; width: 325px; float: left;}        
+.aj_social_ListItem{width: 55px; height: 55px; padding:  5px; border: 1px solid #708090; border-radius: 3px; opacity: .1; cursor: pointer;}           
+.aj_social_added{opacity: 1;}
+#aj_social_Display{margin-top: 15px; width: 450px; float: left;}               
+#aj_social_display_image{width: 85px; height: 85px;}
+#aj_social_display_title{font-size: 24px;}
+#aj_social_display_link_write{color: grey;}
+#aj_social_display_link_show{float: left;}
+#aj_social_display_link_edit{float: left;}
+
+.aj_social_display_share{margin-top: 3px; padding-top: 3px; width: 83px; height: 25px; border: 1px solid #708090; text-align: center; 
+                         color: #708090; border-radius: 2px; cursor: pointer;}
+#aj_social_display_link_write_TB{width: 205px;}
+#aj_social_display_web_link{margin-top: 2px; width: 400px; height: 24px; display:block; float: left;}
+#aj_social_display_web_link_edit{margin-top: 2px; width: 35px; border: 1px solid #708090; float: left; text-align: center; cursor: pointer;  color: #708090;}
+/*********************
+  OPTIONS
+ *********************/
+ .aj_options_info{width: 160px; float: left;}
+ #aj_options_info_firstName, #aj_options_info_lasttName{float: left;}
+ .aj_options_info_A{width: 250px; float: left;}
+ .aj_options_info_B{width: 350px; float: left;}
+ .aj_options_info_C{width: 250px; float: left;}
+ #aj_options_info_email{width: 235px;}
+.aj_options_info_text{margin-bottom: 12px; width: 250px; font-size: 14px;} 
+ 
+ #aj_options_info_birth_month{}
+ #aj_options_info_birth_day{width:50px;}
+ #aj_options_info_birth_year{width: 75px;}
+ 
+ 
+ #aj_options_info_upload_frame{margin: 15px 0 0 45px; width: 175px; height: 255px;}
+ 
+ #aj_options_info_submit{margin: 55px auto 0 auto; padding-top: 5px; width: 100px; height: 25px; border: 2px solid #708090; background-color: #ECF1EF; 
+                          border-radius: 3px; text-align: center; cursor: pointer; box-shadow: 3px 3px 3px #ccc; color: #708090;}
+ 
+ .aj_options_header{margin: 25px 0 10px 55px; padding-left: 10px; width: 105px; font-size: 20px; color: #708090; border-bottom: 1px solid #708090;}
+ .aj_options_header_text{margin:  0 0 15px 55px; width: 700px; font-size: 14px;}
+ #avatarWrap{margin: 0 0 0 90px;}
+ .avatarPic{margin: 0 15px 15px 0; padding: 3px; width: 100px; height: 100px; border: 1px solid #708090; float: left;
+            border-radius: 3px; cursor: pointer;}
+ .bannerPic{margin: 0 15px 15px 0; padding: 3px; width: 225px; height: 100px; border: 1px solid #708090; float: left;
+            border-radius: 3px; cursor: pointer;}           
+ #bannerWrap{padding-left: 16px; margin: 0 auto 0 auto; width: 760px;}
+ #addAvatarUrl{margin: 15px 0 35px 90px; width: 500px; height: 25px; float: left;}
+ #addBannerUrl{margin: 15px 0 35px 78px; width: 500px; height: 25px; float: left;}
+ #addAvatarURL_message, #addBannerURL_message{margin: 16px 0 0 25px; float: left; color: #708090;}
+ #addAvatarURL_go, #addBannerURL_go{margin: 15px 0 0 15px; width: 35px; height: 23px; border: 1px solid #708090; text-align: center; 
+                                    color: #708090; float: left; cursor: pointer; box-shadow: 3px 3px 3px #ccc; border-radius: 2px;}
+
+ .aj_options_info_show_email, .aj_options_info_send_email
+ {margin-left: 3px; width: 45px; border: 1px solid #708090; float: left; cursor: pointer; cursor: pointer; text-align: center;}
+ .selected_option{background-color: #708090; color: White;}
+ .aj_options_info_text{float: left;}
+ 
+ #aj_options_location_pic{margin-top: 5px; width: 55px; height: 55px;}
+ #aj_options_location{width: 250px;}
+ 
+ /*********************
+  FRIENDS
+ *********************/
+ 
+ 
+ #aj_friend_menu_wrap{padding-left: 60px; width: 400px; float: left;}
+ #aj_friend_menu{ width: 400px; position: relative; /*border-BOTTOM: 1px solid red;*/}
+ 
+ /********************/
+ #aj_write_friends{margin-bottom: 25px; padding-bottom: 20px; border: 1px solid #708090; 
+                   border-top-right-radius: 5px; border-top-left-radius: 5px;}
+ #aj_write_friends_avatar{margin: 15px 0 0 15px; padding: 3px; width: 40px; height: 40px; position: absolute;
+                          background-color: White; border-radius: 100px;    }
+ #aj_write_friends_TA{margin: 45px 0 0 40px; padding: 5px 5px 5px 15px; width: 320px; max-width: 320px; min-height: 75px;}
+ #aj_write_friends_submit, #aj_write_friends_cancel
+ {margin: 15px 8px 0 208px; width: 75px; height: 22px; border: 1px solid black; float: left; text-align: center; cursor:pointer;}
+ #aj_write_friends_submit{background-color: #CAFF70; border: 1px solid #006400; color: #006400;}
+ #aj_write_friends_cancel{margin: 17px 0 0 0; width: 65px; height: 18px; font-size: 14px; background-color: #FFE4C4; border: 1px solid #8B2323; color: #8B2323;}
+ 
+ #aj_write_friends_options{width: 380px; height: 55px; 
+                           border-right: 1px solid black; border-bottom: 1px solid black; border-left: 1px solid black;}
+ .aj_write_friends_options{padding: 5px; width: 40px; height: 40px; float: left;}
+ .aj_write_friends_options > img{width: 30px;}
+ /********************/
+ 
+ /************
+     STATUS
+  ************/
+ .aj_top_friends_pic_wrap{float: left;}
+ .aj_top_friends_pic{margin: 0 3px 6px 0; width: 65px; height: 65px; border: 1px solid #708090; cursor: pointer;}
+ .aj_top_friends_status{margin: 0 3px 6px 0; padding-top: 3px; width: 65px; height: 19px; border: 1px solid #708090; cursor: pointer;
+                        text-align: center; font-size: 12px; font-weight: bolder; border-radius: 2px;}
+ .aj_top_friends_status_friend{border: 1px solid #708090; color: #708090; background-color: white;}
+ .aj_top_friends_status_pending{border: 1px solid #4A4A4A; color: #4A4A4A; background-color: #DCDCDC;}
+ .aj_top_friends_status_add{border: 1px solid #006400; color: #006400; background-color: #CAFF70;} 
+ 
+ .aj_top_friends_pic_a{float: left;}
+ /************
+   END STATUS
+  ************/
+  
+  /****************
+    Friend Request
+   ****************/
+   #aj_friend_request{margin-top: 22px; width: 400px; min-height: 100px; border: 1px solid black; border-top-right-radius: 5px; border-top-left-radius: 5px;}
+   .aj_friend_request_accept{margin: 15px 15px 0 0; padding: 3px; width: 75px; height: 22px; border: 1px solid #006400; color: #006400; background-color: #CAFF70; 
+                             float: left; text-align: center; cursor: pointer;}
+   .aj_friend_request_reject{margin: 18px 15px 0 0; width: 65px; height: 20px; background-color: #FFE4C4; border: 1px solid #8B2323; color: #8B2323; 
+                             float: left; text-align: center; font-size: 14px; cursor: pointer;}    
+   .aj_friend_request_name{margin: 15px 0 0 15px; width: 145px; float: left;} 
+   .aj_friend_request_pic{width: 55px; height: 55px; float: left; border: 2px solid #708090; border-radius: 100px;}                                        
+  /********************
+    END Friend Request
+   ********************/  
+   
+ #aj_friend_post_wrap{float: left;} 
+ .aj_friend_post{margin: 0 0 65px 60px; width: 325px; min-height: 400px; border: 1px solid #708090;
+                 border-top-right-radius: 5px; border-top-left-radius: 5px; font-family: Tahoma; float: left;}
+ 
+ .aj_friend_post_banner_wrap{margin-bottom: 45px; width: 325px; height: 100px; border-bottom: 1px solid #708090; cursor: pointer;}
+ .aj_friend_post_banner{width: 325px; height: 100px; border-top-right-radius: 5px; border-top-left-radius: 5px;}
+ .aj_friend_post_avatar{padding: 5px; margin: -20px 0 0 20px; width: 40px; height: 40px; border-radius: 100px;
+                        background-color: White;}
+ .aj_friend_post_name{margin: -22px 0 0 75px; position: absolute; font-size: 12px; font-weight: bolder; color: #708090;}
+ .aj_friend_post_date{margin: -22px 0 0 235px; position: absolute; font-size: 12px; font-weight: bolder; color: #708090;}
+  
+ .aj_friend_post_comment_user_wrap{} 
+ .aj_friend_post_txt{padding: 15px; word-wrap: break-word; font-size: 14px;}
+ .aj_friend_post_photo{margin-left: 25px; width: 275px; cursor: pointer;}
+ .aj_friend_post_TB_wrap{margin-top: 15px;}
+ .aj_friend_post_fave_count{margin: 38px 0 0 13px; width: 50px; position: absolute; 
+                            font-family: Tahoma; font-weight: bolder; font-size: 12px; text-align: center;}
+ .aj_friend_post_fave{margin: 0 25px 25px 21px; width: 35px; height: 35px; cursor: pointer; float: left;}
+ .aj_friend_post_TB_click{margin: 18px 0 0 30px; width: 265px; height: 30px; border: 2px solid #E0EEEE; float: left; cursor: text; 
+                          background-color: White;}
+ .aj_friend_post_TB_click_big{margin-left: 20px; width: 285px; background-color: White; float: none;}
+ .aj_friend_post_TB{margin-left: 25px; width: 225px; border: 1px solid #708090; float: left;}
+ 
+ .aj_friend_post_comment_wrap{padding-bottom: 15px; border-top: 1px solid #708090; background-color: #ECF1EF;}
+ .aj_friend_post_TA{margin: 35px 0 15px 35px; padding: 15px; width: 260px; max-width: 260px; min-height: 75px;
+                    font-family: Tahoma;}
+ .aj_friend_post_comment_avatar{margin: 10px; padding: 5px; width: 35px; height: 35px; position: absolute; border-radius: 100px;
+                                background-color: White;}
+
+ .aj_friend_post_comment_submit, .aj_friend_post_comment_cancel
+ {padding-top: 3px; width: 65px; height: 25px; border: 1px solid black; float: left; text-align: center; font-size: 15px;
+  cursor: pointer;}
+  .aj_friend_post_comment_submit{margin: 0 10px 0 160px; background-color: #CAFF70; border: 1px solid #006400; color: #006400;} 
+ .aj_friend_post_comment_cancel{margin-top: 3px; padding: 0; width: 55px; height: 20px; color: #8B2323;
+                                background-color: #FFE4C4; border: 1px solid #8B2323;}
+                                
+  #aj_search_friends_results{margin: 35px 0 0 28px; width: 355px;}
+  #aj_search_friends{width: 400px; min-height: 350px; border: 1px solid #708090; border-top-right-radius: 5px; border-top-left-radius: 5px;}
+  #aj_search_friends_TB{margin: 20px 15px 0 25px; padding: 0 5px 0 5px; width: 318px; height: 30px; float: left;}
+  #aj_search_friends_Btn{margin-top: 25px; width: 20px; height: 20px; float: left; cursor: pointer;}

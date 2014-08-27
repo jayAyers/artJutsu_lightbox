@@ -1,0 +1,97 @@
+#wrap{margin: 50px auto 50px auto; width: 900px; min-height: 500px;
+      border: 1px solid #708090; border-radius: 5px; font-family: Tahoma; /*background-color: #FDFCDC;*/}
+      
+#artJutsu{margin: 15px 0 0 75px; font-size: 50px; font-weight: bolder; color: #708090; font-family: Tahoma;
+          text-decoration: none;}
+#artJutsuBlog{margin: -39px 0 0 1022px; padding-bottom: 4px; width: 100px; font-family: Tahoma; font-weight: bolder; text-align: center;
+              font-size: 25px; text-decoration: none; display: block; background-color: Orange; color: #FEF5CA;}
+
+#lb_load{width: 50px; height: 50px; left: 5px; bottom: 5px; position: fixed;}   
+#lb_save{bottom: 5px; position: fixed; font-size: 24px; color: #708090; font-family: Tahoma; position: absolute;}       
+          
+#lightbox_txt{font-size: 25px; color: #FFC125;}
+
+#webSearch_report_noPic{margin: 10px 0 0 33px; padding: 15px 5px 5px 5px; width: 200px; height: 30px; border: 1px solid pink; 
+                        cursor: pointer; text-align: center; background-color: #FAEBD7; color: #8B8378;}  
+#webSearch_TB{margin: 75px 10px 0 150px; padding-left: 25px; width: 500px; height: 30px; float: left;
+              font-size: 18px;}
+#webSearch_Btn{margin-top: 75px; padding-top: 3px; width: 100px; height: 25px; 
+               border: 1px solid #708090; float: left; cursor: pointer; text-align: center;
+               font-weight: bolder; color: #708090; background-color: #ECF1EF; box-shadow: 4px 4px 5px #ccc;}
+#webSearch_Btn:hover{box-shadow: 2px 2px 5px #ccc;}
+               
+#webSearch_Result{margin: 65px 40px 0 30px; width: 620px; float: left;}
+#webSearch_XTra{margin-top: 65px; padding: 15px 3px 35px 3px; font-size: 14px; width: 150px; min-height: 250px; 
+                border: 1px solid #708090; background-color: #FFFAF0; float: left; font-size: 14px;}
+.searchPic, .searchYoutube{margin: 0 0 25px 30px; padding: 3px; width: 115px; height: 115px; 
+                           border: 1px solid #708090; float: left; border-radius: 3px;}
+.searchYoutube{border: 1px solid #CD3333; background-color: #FF7256;}
+.searchPic:hover, .searchYoutube:hover{border: 1px solid orange; cursor: pointer; opacity: .7;}
+
+
+#lightbox{width: 900px; /*cursor: crosshair;*/
+          /*cursor: url(http://wiki.ooo4kids.org/images/b/b3/Cursor-Hand.svg), auto;
+		  cursor: url(image/cursors/34.png), auto;*/
+		  }
+#lightbox_canvas{cursor: crosshair; opacity: .5;}
+/*
+  http://www.rw-designer.com/cursor-library
+  http://css-tricks.com/almanac/properties/c/cursor/
+  http://codepen.io/netsi1964/full/DsAhE
+  http://www.ajaxblender.com/howto-create-custom-image-cursors.html
+  http://stackoverflow.com/questions/6887403/custom-cursor-interaction-point-css-jquery
+*/
+
+#lightbox_pic{margin: 25px auto 0 auto; width: 700px;} 
+#lightbox_pic img{width: 700px;}
+
+#floatToolbar{margin: 15px 0 0 -38px; width: 25px; height: 25px; position: absolute; cursor: pointer;}
+
+#lightbox_tools{margin: 30px 0 0 80px; padding-left: 55px; width: 680px; height: 60px; border: 2px solid #708090;/**/
+                border-radius: 5px;
+                bottom: 0; /*position: absolute;*/ background-color: #ECF1EF;}
+/*#lightbox_btn{padding: 15px 0 0 30px; width: 20px; height: 35px; 
+                  border-radius: 5px; cursor: pointer; font-size: 26px; font-weight: bolder; 
+				  background-color: #F6F9ED; border: 2px solid #708090; color: #708090;
+				 bottom: 5px; position: fixed;}*/	
+#lightbox_btn:hover{background-color: #F6F9ED;}				  
+
+#lightbox_screen{margin-left: 98px; position: absolute; border: 2px solid orange; background-color: orange; opacity: 0.3;}
+#lightbox_canvas{margin-left: 98px; position: absolute; border: 2px solid orange;}
+#lightbox_grid{margin-left: 98px; position: absolute; border: 2px solid orange;}
+#lightbox_tutorial{margin-left: 98px; position: absolute; border: 2px solid orange; background-color: White;}
+
+.lightbox_tool_wrap{float: left;}
+.lightbox_tool_icon, #grid_eye, #bgSight, #saveCanvas
+{margin: -10px 55px 0 0; width: 55px; height: 55px; background-color: White;
+ border: 1px solid black; cursor: pointer; box-shadow: 5px 5px 5px #708090; border-radius: 3px;}
+.lightbox_tool_palette{margin-top: -230px; width: 300px; height: 150px; border: 1px solid black;
+                       background-color: #F8F8FF; border: 2px solid #708090; border-radius: 5px; position: absolute;
+                       /*box-shadow: 5px 5px 5px #708090;*/}
+
+.drawItPalettePicker{width: 25px; height: 25px; border: 1px solid black; float: left;}
+#drawItPaletteErase{float: left;}
+#drawItPaletteMarker{float: left;}
+.drawItPaletteSize{float: left;}
+
+
+/****************
+  update pic
+ ****************/
+#update_pic_wrap{bottom: 10px; left: 5px; position: fixed;} 
+#update_pic{width: 225px; height: 60px; /*border: 1px solid black;*/}
+.searchPic_mini{margin-rigth: 5px; width: 55px; min-height: 55px;}
+
+
+
+/***************
+  profile
+ ***************/
+ #profile_portfolio{width: 800px; margin: 95px 0 0 50px;}
+ .portfolio_pic_title{margin: 126px 0 0 -120px; float: left; font-size: 14px;}
+ .portfolio_pic_date{margin: 142px 0 25px -120px; float: left; font-size: 14px;} 
+ .portfolio_pic_add{margin: 162px 0 25px -120px; float: left; font-size: 14px; width: 100px; border: 1px solid #708090;}
+ .portfolio_pic_add_submit{border: 1px solid orange; cursor: pointer;}
+ .portfolio_pic_wrap{float: left;}
+ 
+ #tutorialSoon{margin: 60px 0 0 55px; color: #708090; font-size: 24px; font-weight: bolder;}

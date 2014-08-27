@@ -1,0 +1,22 @@
+#wrap{margin: 50px auto 50px auto; padding-bottom: 57px; width: 900px; 
+      border: 1px solid #708090; border-radius: 5px; font-family: Tahoma; /*background-color: #FDFCDC;*/}
+
+
+.ajIM{bottom: 0; right: 0; width: 255px; height: 410px; border: 1px solid #708090; position: fixed;
+      background-color: White; border-top-right-radius: 5px; border-top-left-radius: 5px;}
+.ajIM_preview{height: 200px; bottom: 1px solid #708090;}
+.ajIM_convo{height: 175px; bottom: 1px solid #708090; overflow: scroll; overflow-x:hidden;
+            -moz-user-select: text; -khtml-user-select: text; -webkit-user-select: text;
+            -ms-user-select: text; user-select: text;}
+.ajIM_textWrap{border-top: 1px solid #708090;}
+.ajIM_send_txt{margin: 7px 0 0 12px; padding-left: 12px; width: 173px; background-color: #FFF5EE; 
+               border: 1px solid #A52A2A; float: left;}
+.ajIM_send_btn{margin: 6px 0 0 6px; width: 50px; height: 20px; float: left; cursor: pointer;
+               border: 1px solid #A52A2A; color: #A52A2A; background-color: #FDF2EE;
+               text-align: center; border-radius: 3px;}
+.im_text_ME, .im_text_YOU{margin-bottom: 5px; padding: 3px 6px 3px 6px; width: 150px; opacity: .85;
+                          border: 1px solid blue; border-radius: 3px; word-wrap: break-word;
+                          color: #FF7F24; background-color: #FFFFF2; border: 1px solid #FF7F24;
+                          }
+.im_text_ME{margin-left: 70px; color: #708090; background-color: #ECF1EF; border: 1px solid #708090;}
+.ajIM_prev_img{width: 250px;}

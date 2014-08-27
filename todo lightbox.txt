@@ -1,0 +1,79 @@
+todo 6/20/2014
+     6/21/2014 (X register, X login UI, X profile UI, gallery UI)
+--------------
+X 1) save title, blab
+X 2) add new column "src_pic", save src_pic
+X 3) load title, blab, src_pic from db 
+
+4) scheme out tutorial
+   * table
+   * ui
+   * functionality
+
+5) look at android app and saving to online database
+http://stackoverflow.com/questions/19217835/can-an-android-app-connect-directly-to-an-online-mysql-database
+
+6) look at how to make a jQuery plugin
+
+7) look at reDoing sketch.js
+
+X 8) reEvaluate profile UI
+
+9) blank search results in a menu to create your own pic from scratch
+    plus options on how to use linkKit
+
+10) start blogging!!
+
+11) capture search terms (with uid) (image clicked 'get popular image')
+
+X12) login/logout/register
+    login--DONE | logout--DONE |  register--DONE
+    
+X 12-B) login UI
+
+X 13) profile creation
+
+
+----------------------
+14) free draw!
+
+15) how to create a drawing android/ios app (Touch Paint)
+http://code.tutsplus.com/tutorials/android-sdk-create-a-drawing-app-touch-interaction--mobile-19202
+http://creative-punch.net/2014/03/make-basic-single-touch-drawing-app-android/
+http://stackoverflow.com/questions/5258467/drawing-app-in-android
+http://www.effectiveui.com/blog/2011/12/02/how-to-build-a-simple-painting-app-for-ios/
+
+16) create the fuckin' LLC (artJutsu llc / clajCORP)
+
+17) crawl bookmarks --> save links in folder named artJutsu
+
+18) Surpassing these assholes
+http://www.digitalartsonline.co.uk/features/illustration/8-best-apps-for-artists-draw-sketch-paint-on-your-ipad/
+
+19) if url exists in search for user, pull users's saved spot
+
+20) combine two images together
+
+21) edit profile
+
+22) DocType
+
+23) delete previous picture
+
+24) Jay's Dailies
+
+25) hearts and pens (faves and people who have drawn and shared pic)
+
+26) social share
+
+27) sales pitch - artJutsu is the central hub of the art world!
+
+28) broadcast
+
+X 29) hover (show bg_pic)
+
+X 30) saving/loading youtube video
+
+X 31) drawing url
+
+WIP 32) New Menu System...
